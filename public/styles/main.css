@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+.hover-effect {
+  background: linear-gradient(to bottom, #b08eec 0%, #b899ee 100%);
+  background-position: 0 90%;
+  background-repeat: repeat-x;
+  background-size: 2px 3px;
+  color: #4f4f4f;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size: 1.35rem;
+}
+.hover-effect:hover {
+  background-size: 9px 80px;
+  color: #fff;
+}
+.section-header::before {
+  display: block;
+  content: '';
+  width: 70px;
+  height: 5px;
+  background: #7c3aed;
+  margin: 0.4rem auto;
+}
