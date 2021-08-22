@@ -1,130 +1,400 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link rel="stylesheet" href="/styles/main.css">
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='stylesheet' href='/styles/styles.css' />
+    <link rel='stylesheet' href='/styles/main.css' />
     <title>Resume</title>
   </head>
   <body>
-    <div class="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-      <div class="flex flex-col justify-center pt-10 pb-10 sm:text-center sm:mx-auto sm:mb-0 h-screen">
-        <div class="max-w-xl mb-10 text-left lg:max-w-4xl mx-auto md:mb-12">
-          <p class="font-bold text-base"> Hi there 👋, I'm</p>
-          <h2 class="mb-6 font-sans text-4xl font-bold leading-none tracking-tight text-gray-600 sm:text-7xl">
-            <span class="text-gray-800">Michael Madumere</span> <br>
+    <div
+      class='px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'
+    >
+      <div
+        class='flex flex-col justify-center pt-10 pb-10 sm:text-center sm:mx-auto sm:mb-0 h-screen'
+      >
+        <div class='max-w-xl mb-10 text-left lg:max-w-4xl mx-auto md:mb-12'>
+          <p class='font-bold text-base'> Hi there 👋, I'm</p>
+          <h2
+            class='mb-6 font-sans text-4xl font-bold leading-none tracking-tight text-gray-600 sm:text-7xl'
+          >
+            <span class='text-gray-800'>Michael Madumere</span>
+            <br />
             Fullstack Web Developer
           </h2>
-          <p class="text-base text-gray-600 md:text-lg max-w-3xl">
+          <p class='text-base text-gray-600 md:text-lg max-w-3xl'>
             I'm a fullstack engineer, passionate about solving problems using
-            web and mobile technologies whilst creating responsive and
-            highly performant products with clean designs.
+            web and mobile technologies whilst creating responsive and highly
+            performant products with clean designs.
           </p>
-          <div class="pt-6">
-            <a href="#contact-me" class="inline-flex items-center justify-center h-12 px-6 text-sm font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-600 hover:bg-purple-700 focus:shadow-outline focus:outline-none">
+          <div class='pt-6'>
+            <a
+              href='#contact-me'
+              class='inline-flex items-center justify-center h-12 px-6 text-sm font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-600 hover:bg-purple-700 focus:shadow-outline focus:outline-none'
+            >
               Contact Me
             </a>
           </div>
         </div>
       </div>
-      <div class="max-w-xl lg:max-w-4xl mx-auto pb-20">
+      <div class='max-w-xl lg:max-w-4xl mx-auto pb-20'>
         <div>
-          <h3 class="font-bold text-3xl relative text-center mb-10 section-header">About Me</h3>
+          <h3
+            class='font-bold text-3xl relative text-center mb-10 section-header'
+          >About Me</h3>
         </div>
-        <p class="text-gray-600 md:text-xl leading-relaxed mx-auto">
-          Hi, I am Michael Madumere. I am a self taught frontend web and
-          mobile developer. I have about one year experience in frontend
-          development, using
-          <span class="hover-effect">Javascript</span>,
-          <span class="hover-effect">Typescript</span>,
-          <span class="hover-effect">Angular</span>,
-          <span class="hover-effect">React Js</span>,
-          <span class="hover-effect">Node Js</span> and other
-          frameworks and libraries to create responsive web applications.
+        <p class='text-gray-600 md:text-xl leading-relaxed mx-auto'>
+          Hi, I am Michael Madumere. I am a self taught frontend web and mobile
+          developer. I have about one year experience in frontend development,
+          using
+          <span class='hover-effect'>Javascript</span>,
+          <span class='hover-effect'>Typescript</span>,
+          <span class='hover-effect'>Angular</span>,
+          <span class='hover-effect'>React Js</span>,
+          <span class='hover-effect'>Node Js</span>
+          and other frameworks and libraries to create responsive web
+          applications.
           <br />
           <br />
-          I’m passionate about building excellent software that improves
-          the lives of those around me and creates delightful experiences
-          for users. I take every opportunity to learn new technologies
-          and skills that would be beneficial to my growth and progress as
-          a developer.
+          I’m passionate about building excellent software that improves the
+          lives of those around me and creates delightful experiences for users.
+          I take every opportunity to learn new technologies and skills that
+          would be beneficial to my growth and progress as a developer.
           <br />
-          <br />I am a diligent, hard working and result oriented person,
-          I am always determined to ensure that I achieve the best results
-          while working on a project. You can find me on
-            <a
-              class="underline"
-              href="https://www.linkedin.com/in/michael-madumere/"
-            >
-              LinkedIn
-            </a>
+          <br />I am a diligent, hard working and result oriented person, I am
+          always determined to ensure that I achieve the best results while
+          working on a project. You can find me on
+          <a
+            class='underline'
+            href='https://www.linkedin.com/in/michael-madumere/'
+          >
+            LinkedIn
+          </a>
           to get more information.
         </p>
       </div>
-      <div class="max-w-xl lg:max-w-4xl mx-auto pb-20 pt-10">
+      {{! Experience Section }}
+      <div class='max-w-xl lg:max-w-4xl mx-auto pb-20 pt-10'>
         <div>
-          <h3 class="font-bold text-3xl relative text-center mb-10 section-header">Experience</h3>
+          <h3
+            class='font-bold text-3xl relative text-center mb-10 section-header'
+          >Experience</h3>
         </div>
-        <div class="flex flex-col md:flex-row">
-          <div class="md:w-1/2 md:mr-5">
-            <h3 class="font-bold text-gray-800 text-3xl">HNG Internship</h3>
-            <h4 class="font-bold text-gray-800 text-xl">Backend Developer</h4>
-            <h6 class="font-semibold text-gray-400">August 2021 - Till date</h6>
-            <p class="text-gray-600 mt-5">Building my skills as a backend developer using Nodejs.</p>
-            <div class="mt-3 flex">
-              <a href="https://hng.tech/">
-                <img class="w-44" width="150" src="https://hng.tech/img/brand-logo.png" alt="HNG Logo" />
+        <div class='flex flex-col md:flex-row'>
+          <div class='md:w-1/2 md:mr-5'>
+            <h3 class='font-bold text-gray-800 text-3xl'>HNG Internship</h3>
+            <h4 class='font-bold text-gray-800 text-xl'>Backend Developer</h4>
+            <h6 class='font-semibold text-gray-400'>August 2021 - Till date</h6>
+            <p class='text-gray-600 mt-5'>Building my skills as a backend
+              developer using Nodejs.</p>
+            <div class='mt-3 flex'>
+              <a href='https://hng.tech/'>
+                <img
+                  class='w-44'
+                  width='150'
+                  src='https://hng.tech/img/brand-logo.png'
+                  alt='HNG Logo'
+                />
               </a>
-              <a class="mx-5" href="https://ingressive.org/">
-                <img class="w-14" width="50" src="/images/i4g.png" alt="I4g Logo" />
+              <a class='mx-5' href='https://ingressive.org/'>
+                <img
+                  class='w-14'
+                  width='50'
+                  src='/images/i4g.png'
+                  alt='I4g Logo'
+                />
               </a>
-              <a href="https://training.zuri.team/">
-                <img class="w-14" width="50" src="/images/zuri.png" alt="Zuri Logo" />
+              <a href='https://training.zuri.team/'>
+                <img
+                  class='w-14'
+                  width='50'
+                  src='/images/zuri.png'
+                  alt='Zuri Logo'
+                />
               </a>
             </div>
           </div>
-          <div class="md:w-1/2 mt-10 md:mt-0">
-            <h3 class="font-bold text-gray-800 text-3xl">Tegence AI</h3>
-            <h4 class="font-bold text-gray-800 text-xl">Frontend Developer</h4>
-            <h6 class="font-semibold text-gray-400">July 2020 - Till date</h6>
-            <ul class="text-gray-600 list-disc list-inside mt-5">
-              <li>Wrote clean HTML and CSS code, integrating design, extensions and third-party apps according to web development plans.</li>
-              <li>Designed and updated layouts to meet usability and performance requirements. Consulted with customers to gather requirements and discuss design choices.</li>
+          <div class='md:w-1/2 mt-10 md:mt-0'>
+            <h3 class='font-bold text-gray-800 text-3xl'>Tegence AI</h3>
+            <h4 class='font-bold text-gray-800 text-xl'>Frontend Developer</h4>
+            <h6 class='font-semibold text-gray-400'>July 2020 - Till date</h6>
+            <ul class='text-gray-600 list-disc list-inside mt-5'>
+              <li>Wrote clean HTML and CSS code, integrating design, extensions
+                and third-party apps according to web development plans.</li>
+              <li>Designed and updated layouts to meet usability and performance
+                requirements. Consulted with customers to gather requirements
+                and discuss design choices.</li>
             </ul>
           </div>
         </div>
       </div>
-      <div id="contact-me" class="max-w-xl lg:max-w-4xl mx-auto pb-20 pt-10">
+      {{! Projects Section }}
+      <div class='max-w-xl lg:max-w-4xl mx-auto pb-20 pt-10'>
         <div>
-          <h3 class="font-bold text-3xl relative text-center mb-10 section-header">Contact Me</h3>
+          <h3
+            class='font-bold text-3xl relative text-center mb-10 section-header'
+          >Projects</h3>
         </div>
-        {{!-- <form id="contact-form" method="POST" action="/contacts"> --}}
-        <form method="POST" enctype="multipart/form-data" onsubmit="return submitContact(event)" id="contact-form">
-          <section class="text-gray-600 body-font relative">
-            <div class="py-10 mx-auto">
-              <div class="md:w-10/12 mx-auto">
-                <div class="flex flex-wrap -m-2">
-                  <div class="p-2 w-1/2">
-                    <div class="relative">
-                      <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-                      <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-5 w-100'>
+          <div class='shadow-md w-100 p-5 border border-gray-100 rounded-md'>
+            <div class='flex flex-row justify-between items-center'>
+              <img
+                width='40'
+                src='/images/icons/folder_open.svg'
+                alt='Folder'
+              />
+              <div>
+                <a
+                  href='https://tegence.com/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    width='20'
+                    src='/images/icons/open_in_new.svg'
+                    alt='Open'
+                  />
+                </a>
+              </div>
+            </div>
+            <div class='pt-4'>
+              <h4 class='font-bold text-lg mb-5 text-gray-700 font-sans'>Tegence
+                Website</h4>
+              <p class='text-gray-600 text-base'>
+                Tegence is a tech start-up that specializes in solving problems
+                using Machine learning and Deep learning algorithms. I built and
+                initiated the design of the company's landing page.
+              </p>
+              <div class='text-xs text-purple-600 pt-3 flex flex-wrap'>
+                <span class='bg-purple-100 rounded-full py-1 px-3 m-1'>React Js</span>
+                <span class='bg-purple-100 rounded-full py-1 px-3 m-1'>Next Js</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Typescript</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Vercel</span>
+              </div>
+            </div>
+          </div>
+          <div class='shadow-md w-100 p-5 border border-gray-100 rounded-md'>
+            <div class='flex flex-row justify-between items-center'>
+              <img
+                width='40'
+                src='/images/icons/folder_open.svg'
+                alt='Folder'
+              />
+              <div>
+                <a
+                  href='https://tegence-shop.web.app/home'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    width='20'
+                    src='/images/icons/open_in_new.svg'
+                    alt='Open'
+                  />
+                </a>
+              </div>
+            </div>
+            <div class='pt-4'>
+              <h4
+                class='font-bold text-lg mb-6 text-gray-700 font-sans'
+              >Naturbon Demo</h4>
+              <p class='text-gray-600 text-base'>
+                Naturbon is a skin-care products distribution company. This is
+                an e-commerce webapp. I built this website for the client using
+                the shopify Graphql Api to query the client products.
+              </p>
+              <div class='text-xs text-purple-600 pt-3 flex flex-wrap'>
+                <span class='bg-purple-100 rounded-full py-1 px-3 m-1'>Angular
+                  Js</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Graphql</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Firebase</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Shopify</span>
+              </div>
+            </div>
+          </div>
+          <div class='shadow-md w-100 p-5 border border-gray-100 rounded-md'>
+            <div class='flex flex-row justify-between items-center'>
+              <img
+                width='40'
+                src='/images/icons/folder_open.svg'
+                alt='Folder'
+              />
+              <div class='grid grid-cols-2 gap-3'>
+                <a
+                  href='https://github.com/i-Mhyke/WEATHER-APP'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img width='20' src='/images/icons/github.svg' alt='Open' />
+                </a>
+                <a
+                  href='https://i-mhyke.github.io/WEATHER-APP/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    width='20'
+                    src='/images/icons/open_in_new.svg'
+                    alt='Open'
+                  />
+                </a>
+              </div>
+            </div>
+            <div class='pt-4'>
+              <h4 class='font-bold text-lg mb-6 text-gray-700 font-sans'>Weather
+                App
+              </h4>
+              <p class='text-gray-600 text-base'>
+                A simple weather app that visualizes the current weather
+                condition in different cities around the world.
+              </p>
+              <div class='text-xs text-purple-600 pt-3 flex flex-wrap'>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >HTML</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Bootstrap</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Javascript</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Weather-Api</span>
+              </div>
+            </div>
+          </div>
+          <div class='shadow-md w-100 p-5 border border-gray-100 rounded-md'>
+            <div class='flex flex-row justify-between items-center'>
+              <img
+                width='40'
+                src='/images/icons/folder_open.svg'
+                alt='Folder'
+              />
+              <div class='grid grid-cols-2 gap-3'>
+                <a
+                  href='https://github.com/i-Mhyke/BuyCoins-Interview'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img width='20' src='/images/icons/github.svg' alt='Github' />
+                </a>
+                <a
+                  href='https://michael-buycoin-task.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    width='20'
+                    src='/images/icons/open_in_new.svg'
+                    alt='Open'
+                  />
+                </a>
+              </div>
+            </div>
+            <div class='pt-4'>
+              <h4 class='font-bold text-lg mb-6 text-gray-700 font-sans'>Github
+                Clone
+              </h4>
+              <p class='text-gray-600 text-base'>
+                A simple github profile page clone. Users can input their github
+                username to view their profile.
+              </p>
+              <div class='text-xs text-purple-600 pt-3 flex flex-wrap'>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >HTML</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >CSS3</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Javascript</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Graphql</span>
+                <span
+                  class='bg-purple-100 rounded-full py-1 px-3 m-1'
+                >Netlify</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{! Contact Me Section }}
+      <div id='contact-me' class='max-w-xl lg:max-w-4xl mx-auto pb-20 pt-10'>
+        <div>
+          <h3
+            class='font-bold text-3xl relative text-center mb-10 section-header'
+          >Contact Me</h3>
+        </div>
+        {{! <form id="contact-form" method="POST" action="/contacts"> }}
+        <form
+          method='POST'
+          enctype='multipart/form-data'
+          onsubmit='return submitContact(event)'
+          id='contact-form'
+        >
+          <section class='text-gray-600 body-font relative'>
+            <div class='py-10 mx-auto'>
+              <div class='md:w-10/12 mx-auto'>
+                <div class='flex flex-wrap -m-2'>
+                  <div class='p-2 w-1/2'>
+                    <div class='relative'>
+                      <label
+                        for='name'
+                        class='leading-7 text-sm text-gray-600'
+                      >Name</label>
+                      <input
+                        type='text'
+                        id='name'
+                        name='name'
+                        class='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                      />
                     </div>
                   </div>
-                  <div class="p-2 w-1/2">
-                    <div class="relative">
-                      <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                      <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  <div class='p-2 w-1/2'>
+                    <div class='relative'>
+                      <label
+                        for='email'
+                        class='leading-7 text-sm text-gray-600'
+                      >Email</label>
+                      <input
+                        type='email'
+                        id='email'
+                        name='email'
+                        class='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                      />
                     </div>
                   </div>
-                  <div class="p-2 w-full">
-                    <div class="relative">
-                      <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-                      <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                  <div class='p-2 w-full'>
+                    <div class='relative'>
+                      <label
+                        for='message'
+                        class='leading-7 text-sm text-gray-600'
+                      >Message</label>
+                      <textarea
+                        id='message'
+                        name='message'
+                        class='w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                      ></textarea>
                     </div>
                   </div>
-                  <div class="p-2 w-full">
-                    <button type="submit" class="flex ml-auto text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-700 rounded text-lg">
+                  <div class='p-2 w-full'>
+                    <button
+                      type='submit'
+                      class='flex ml-auto text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-700 rounded text-lg'
+                    >
                       Send Message
                     </button>
                   </div>
@@ -133,8 +403,8 @@
             </div>
           </section>
         </form>
-      </div>  
+      </div>
     </div>
-    <script src="/js/main.js"></script>
+    <script src='/js/main.js'></script>
   </body>
 </html>
